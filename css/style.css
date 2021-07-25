@@ -109,6 +109,7 @@ ul {
   z-index: 999;
   margin-bottom: 0px;
   transition: all 0.5s ease-in-out;
+  width: 100%;
 }
 
 .custom-nav .navbar-nav li a {
@@ -159,18 +160,17 @@ ul {
         4.HOME
 =============================*/
 
-header.headerOne {
-  background-image: url(../img/bg-image-28.jpg);
+header.headerOne ,header.headerTwo{
   position: relative;
   background-repeat: no-repeat;
-  background-size: cover;
-  /* background-position: 50% 50%; */
+  background-size: cover
+}
+header.headerOne{
+  background-image: url(../img/bg-image-28.jpg);
 }
 header.headerTwo {
   background-image: url(../img/bg-image-29.jpg);
-  position: relative;
-  background-repeat: no-repeat;
-  background-size: cover;
+
 }
 
 .header-name,
